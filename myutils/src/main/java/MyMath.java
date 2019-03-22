@@ -1,5 +1,3 @@
-package mmf.com.cutommathnew;
-
 public class MyMath {
     public static int Plus(int a,int b){
         return  a+b;
@@ -15,11 +13,10 @@ public class MyMath {
 
     public static float Div(int a,int b){
         if (b == 0){
-throw new IllegalArgumentException("Div by Zero eroor");
+            throw new IllegalArgumentException("Div by Zero eroor");
         }else {
             return  a/b;
         }
 
     }
-
 }
